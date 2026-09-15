@@ -1,0 +1,91 @@
+````markdown
+# 📱 Accelerometer App
+
+Aplicativo Android desenvolvido em Kotlin utilizando Jetpack Compose
+para leitura e apresentação dos dados do acelerômetro do dispositivo.
+
+## 👨‍🎓 Aluno
+
+**Pedro Luís Correa Subtil**
+
+## 🎯 Objetivo
+
+Desenvolver uma interface gráfica utilizando Jetpack Compose e conceitos
+de Material Design para apresentar informações provenientes dos sensores
+do dispositivo em tempo real.
+
+## 📊 Informações apresentadas
+
+A aplicação apresenta:
+
+- Aceleração no eixo X;
+- Aceleração no eixo Y;
+- Aceleração no eixo Z;
+- Aceleração linear;
+- Aceleração da gravidade.
+
+Todos os valores são apresentados em **m/s²**.
+
+## 🛠️ Tecnologias utilizadas
+
+- Kotlin
+- Android Studio
+- Jetpack Compose
+- Material Design 3
+- SensorManager
+- SensorEventListener
+- ViewModel
+
+## 🎨 Interface
+
+A interface foi organizada utilizando:
+
+- TopAppBar;
+- Cards;
+- Hierarquia visual;
+- Agrupamento de informações;
+- Tipografia;
+- Espaçamento;
+- Contraste;
+- Indicador visual de atualização;
+- Componentes do Material Design.
+
+## 📱 Como executar
+
+1. Abra o projeto no Android Studio.
+2. Aguarde a sincronização do Gradle.
+3. Conecte um dispositivo Android ou utilize um emulador.
+4. Execute o aplicativo através do botão **Run ▶**.
+
+Para obter resultados reais do acelerômetro, recomenda-se utilizar
+um dispositivo físico.
+
+## 📂 Estrutura principal
+
+```text
+AccelerometerApp/
+│
+├── app/
+│   └── src/
+│       └── main/
+│           ├── java/
+│           │   └── br/
+│           │       └── edu/
+│           │           └── pedroluiscorreasubtil/
+│           │               └── accelerometerapp/
+│           │                   └── MainActivity.kt
+│           │
+│           └── AndroidManifest.xml
+│
+├── build.gradle.kts
+├── settings.gradle.kts
+└── README.md
+````
+
+## 📚 Observação
+
+O projeto foi desenvolvido como atividade acadêmica para demonstrar
+a utilização de sensores Android, Jetpack Compose e conceitos de UI/UX.
+
+```
+```
